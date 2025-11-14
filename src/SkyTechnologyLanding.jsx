@@ -74,6 +74,16 @@ export default function SkyTechnologyLanding() {
               <h4 className="font-semibold">SkyConvenience</h4>
               <p className="mt-2 text-sm text-slate-600">Набор утилит для комфортной цифровой работы.</p>
               <div className="mt-4 text-xs text-slate-500">Статус: пилот, положительная обратная связь</div>
+              <div className="mt-4">
+                <a
+                  href="https://sites.google.com/view/skyosmain"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-sky-600 text-white rounded-2xl font-medium shadow hover:scale-[1.02] transition"
+                >
+                  Перейти на SkyConvenience
+                </a>
+              </div>
             </article>
 
             <article className="p-6 bg-white rounded-2xl shadow">
@@ -152,3 +162,4 @@ export default function SkyTechnologyLanding() {
     </div>
   );
 }
+
